@@ -3,7 +3,7 @@ import streamlit as st
 st.title("Juega con Magic Calculator")
 
 # Ask for user's name
-name = st.text_input("Cuá es tu nombre?")
+name = st.text_input("Cuál es tu nombre?")
 
 # Continue only if the user writes their name
 if name:
