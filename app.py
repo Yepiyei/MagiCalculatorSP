@@ -7,7 +7,7 @@ name = st.text_input("Cuál es tu nombre?")
 
 # Continue only if the user writes their name
 if name:
-    st.write(f"Hola, {name}! vamos ha hacer algo de mates basicas")
+    st.write(f"Hola, {name}! vamos ha hacer algo de mates básicas")
 
     num_1 = st.number_input("Elige un número del 1 al 7", step=1)
     num_2 = st.number_input(f"Que número 1-7 quieres sumarle a {num_1}?", step=1)
