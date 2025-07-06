@@ -12,7 +12,7 @@ if name:
     num_1 = st.number_input("Elige un número del 1 al 7", step=1)
     num_2 = st.number_input(f"Que número 1-7 quieres sumarle a {num_1}?", step=1)
 
-    if st.button("Calculate Sum"):
+    if st.button("Calcula El Resultado"):
         result = int(num_1) + int(num_2)
         st.success(f"Boom!!! La Suma es: {result}")
 
